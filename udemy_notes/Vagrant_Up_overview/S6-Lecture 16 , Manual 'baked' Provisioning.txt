@@ -1,0 +1,63 @@
+
+==== {  blockStart: lectureNotes
+- Section name: NAME
+- Doc title: Udemy lecture / COURSE TITLE / SN-Lecture LN , SECTION NAME.
+- startDate: X
+- finishDate: X
+- Section: SN / Lecture.LN
+- Length: time
+----- 
+Manual Provisioning 
+- LAMP stack Linux Apache Mysql Php
+- mkdir baked-lamp
+- find box:
+	- https://app.vagrantup.com/boxes/search
+	-  # search for centos 
+	- generic/centos -> https://app.vagrantup.com/generic/boxes/centos7
+- vagrant init centos
+- vi Vagrantfile
+-  # add 
+	- VAGRANTFILE_API_VERSION = "2"
+	- Vagrant.configure(VAGRANTFILE_API_VERSION ) do |config|
+	- config.vm.network "forwarded_port", guest: 80, host: 8080
+	- config.vm.synced_folder ".", "/vagrant"
+- vagrant validate
+- vagrant up
+- vagrant ssh
+- sudo yum update
+- sudo yum install -y git unzip screen
+- sudo yum install -y httpd httpd-dev httpd-tools
+	-  # not working
+	- sudo chkconfig --add httpd
+- 4:20
+- sudo apachectl start ; apachectl status
+- sudo apachectl stop ; apachectl status
+- cd /var/www/html/
+- ll
+	- total 0
+- cd ..
+- ll
+	- total 0
+	- drwxr-xr-x. 2 root root 6 Nov 16 16:19 cgi-bin
+	- drwxr-xr-x. 2 root root 6 Nov 16 16:19 html
+- sudo rm -rf html
+- ll
+	- total 0
+	- drwxr-xr-x. 2 root root 6 Nov 16 16:19 cgi-bin
+- sudo ln -s /vargant /var/www/html
+- ll
+- total 0
+	- drwxr-xr-x. 2 root root 6 Nov 16 16:19 cgi-bin
+	- lrwxrwxrwx. 1 root root 8 Feb  9 05:53 html -> /vargant
+- exit
+- vi index.html
+- 6:23
+- X
+
+---
+----- 
+HEADER 
+- X
+-----  
+
+END
