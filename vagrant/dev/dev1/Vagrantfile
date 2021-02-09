@@ -16,7 +16,9 @@ Vagrant.configure("2") do |config|
 
   config.vm.network "public_network" , bridge: "en1: Wi-Fi (AirPort)"
 ##P#  config.vm.network "public_network" , bridge: "Internet"
-  config.vm.synced_folder "../shared_data", "/shared_data" #shared_data
+
+  config.vm.synced_folder "~/Documents" , "/shared_data-local" #shared_data
+##Prev#  config.vm.synced_folder "../shared_data", "/shared_data" #shared_data
 
   # Disable automatic box update checking. If you disable this, then
   # boxes will only be checked for updates when the user runs
