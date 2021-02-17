@@ -1,0 +1,17 @@
+
+==== {  blockStart: lectureNotes
+- Section name: TITLE
+- Doc title: Udemy lecture / COURSE TITLE / SN-Lecture LN , TITLE.
+- Section: SN / Lecture.LN
+- Length: time
+----- 
+HEADER 
+- X
+- MM:SS
+----- 
+HEADER 
+- X
+- MM:SS
+----- 
+
+END
