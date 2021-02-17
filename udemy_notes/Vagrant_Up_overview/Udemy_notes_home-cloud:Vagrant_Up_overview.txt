@@ -1,0 +1,116 @@
+
+Sections:
+1. courseSectionList
+2. courseInfo
+3. lectureMap
+
+==== { blockStart: courseSectionList
+1. Section: 1 Introduction (13:38)
+2. Section: 2 Installation (20:06)
+3. Section: 3 Getting Started (14:43)
+4. Section: 4 Boxes (13:01)
+5. Section: 5 Plugins (05:34)
+6. Section: 6 Provisioning (01:03:10)
+7. Section: 7 Multiple Virtual Machines (15:48)
+8. Section: 8 Conclusion (02:18)
+9. Section 9: Bonus! Creating Custom Boxes for Vagrant
+10. Section 10: Bonus! Using the Chef Solo Provisioner
+==== { blockStart: courseSectionList
+
+==== { blockStart: courseInfo
+1. Doc title: Udemy notes home /Vagrant Up! Comprehensive development system automation
+2. content link: https://www.udemy.com/course/vagrant-up/
+3. rating:
+4. overall length:
+5. num lectures:
+6. Skill level:
+7. Udemy share link:
+-— Description -—
+X
+-—
+-— Course Requirements -—
+X
+-—
+blockEnd: courseInfo }====
+
+==== {  blockStart: lectureMap
+- Total Sections: 8
+- Total Lectures: 46
+
+-— Section: 1 Introduction (13:38) -—
+1. Course Introduction and Overview. enLink: Udemy lecture / Vagrant Up overview / S1-Lecture 1 , Course Introduction.
+2. Core Concepts. enLink: LINK.
+3. Course Materials
+4. Core Concepts Quiz
+-—
+
+-— Section: 2 Installation (20:06) -—
+1. Installation Overview. enLink: LINK.
+2. Windows Installation. Udemy lecture / Vagrant Up overview / S2-Lecture 5 , Windows Installation.
+3. Mac OS X Installation. enLink: Udemy lecture / Vagrant Up overview / S2-Lecture 6 , Mac OS X Installation.
+-—
+
+-— Section: 3 Getting Started (14:43) -—
+1. Quick Start. enLink: Udemy lecture / Vagrant Up overview / S3-Lecture 7 , Quick Start.
+2. Version Control Vagrant Projects. enLink: Udemy lecture / Vagrant Up overview / S3-Lecture 8 , Version Control Vagrant Projects.
+3. Getting Started Quiz
+4. Getting Started Command Listing
+-—
+
+-— Section: 4 Boxes (13:01) -—
+- Udemy lecture / Vagrant Up overview / 
+	- S4-Lecture N , TITLE
+1. S4-Lecture 10 / Managing Boxes. enLink: Udemy lecture / Vagrant Up overview / S4-Lecture 10 , Managing Boxes.
+2. S4-Lecture 11 / Finding More Boxes. enLink: Udemy lecture / Vagrant Up overview / S4-Lecture 11 , Finding More Boxes.
+3. Boxes Quiz
+-—
+
+-— Section: 5 Plugins (05:34) -—
+- Udemy lecture / Vagrant Up overview / 
+	- S5-Lecture N , TITLE
+1. S5-Lecture 13/ Using Plugins. enLink: Udemy lecture / Vagrant Up overview / S5-Lecture 13 , Using Plugins.
+-—
+
+-— Section: 6 Provisioning (01:03:10) -—
+- Udemy lecture / Vagrant Up overview / 
+	- S6-Lecture N , TITLE
+S6-Lecture N  / .
+1. S6-Lecture 15  / Provisioning Introduction. enLink: Udemy lecture / Vagrant Up overview / S6-Lecture 15 , Provisioning Introduction.
+2. S6-Lecture 16  / Manual "baked" Provisioning. enLink: Udemy lecture / Vagrant Up overview / S6-Lecture 16 , Manual "baked" Provisioning.
+3. S6-Lecture 17  / File Provisioner. enLink: Udemy lecture / Vagrant Up overview / S6-Lecture 17 , File Provisioner.
+4. S6-Lecture 18  / Shell Provisioner. enLink: Udemy lecture / Vagrant Up overview / S6-Lecture 18 , Shell Provisioner.
+5. S6-Lecture 19  / LAMP Stack Provisioning Example, Part 1. enLink: Udemy lecture / Vagrant Up overview / S6-Lecture 19 , LAMP Stack Provisioning Example.
+6. S6-Lecture 20  / LAMP Stack Provisioning Example, Part 2. enLink: Udemy lecture / Vagrant Up overview / S6-Lecture 20 , LAMP Stack Provisioning Example.
+7. Provisioning Quiz
+-—
+
+-— Section: 7 Multiple Virtual Machines (15:48) -—
+- Udemy lecture / Vagrant Up overview / 
+	- S7-Lecture N , TITLE
+1. S7-Lecture 22 , Provisioning and Working with Multiple Virtual Machines. enLink: LINK.
+2. Quiz 6: Multiple Virtual Machines
+3. S7-Lecture 23 , Multiple VMs Command Listing. enLink: LINK.
+-—
+
+-— Section: 8 Conclusion (02:18) -—
+- Udemy lecture / Vagrant Up overview / S8-Lecture N , TITLE. enLink: LINK.
+1. S8-Lecture N / Conclusion. enLink: LINK.
+2. Resources
+-—
+
+-— Section 9: Bonus! Creating Custom Boxes for Vagrant -—
+- Udemy lecture / Vagrant Up overview / S9-Lecture N , TITLE. enLink: LINK.
+1. TITLE. enLink: LINK.
+-—
+
+-— Section 10: Bonus! Using the Chef Solo Provisioner -—
+- Udemy lecture / Vagrant Up overview / S10-Lecture N , TITLE. enLink: LINK.
+1. TITLE. enLink: LINK.
+-—
+
+-— Section: X -—
+1. TITLE. enLink: LINK.
+-—
+blockEnd:  lectureMap   }==== 
+
+
